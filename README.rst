@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Mix Master API's documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repo is the source code for the Mix Master API's documentation.
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://mixmasterapidoc.readthedocs.io/en/latest/
