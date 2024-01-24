@@ -5,13 +5,23 @@ Endpoints
 Introduction
 ============
 
-This page summerizes up every endpoint of the mix master api and its queries
+Welcome to the Mix Master API documentation. This comprehensive guide details every endpoint of the Mix Master API,
+including queries, request and response formats, and examples. Designed for developers and cocktail enthusiasts alike,
+this API offers a seamless way to access a wide array of cocktail recipes and ingredients.
+Whether you are building a cocktail app or exploring new drink ideas, this documentation will
+provide you with the necessary tools to make the most out of the Mix Master API.
+
+.. note:: If you don't have an API key, visit our `purchase page <https://github.com/RobertArnosson/mixmasterapidoc>`_ to get one.
 
 Cocktails
 =========
 
-List every **cocktail**
------------------------
+List every cocktail
+-------------------
+
+Retrieves a comprehensive list of cocktails. You can filter the results by page, number of items per
+page, search query, search accuracy threshold, and description language. This endpoint is ideal for
+browsing cocktails or searching for specific drinks based on ingredients or names.
 
 **GET** ``/api/cocktails``
 
@@ -56,8 +66,12 @@ List every **cocktail**
         "items_per_page": 25
     }
 
-Get a **cocktail** from an **id**
----------------------------------
+Get a cocktail from an id
+-------------------------
+
+Fetch detailed information about a specific cocktail by its unique ID. This endpoint is useful for
+obtaining in-depth details of a cocktail, including its ingredients, preparation method, and history.
+You can also specify the language for the cocktail description.
 
 **GET** ``/api/cocktails/{id}``
 
@@ -91,8 +105,13 @@ Get a **cocktail** from an **id**
 Ingredients
 ===========
 
-List every **ingredient**
--------------------------
+List every ingredient
+---------------------
+
+Access a complete list of ingredients used in cocktails. This endpoint supports filtering by page,
+number of items per page, search queries, accuracy threshold for search results, and language for
+ingredient descriptions. It's essential for discovering new ingredients or finding details about
+familiar ones.
 
 **GET** ``/api/ingredients``
 
@@ -176,8 +195,12 @@ List every **ingredient**
       "items_per_page": 25
   }
 
-Get an **ingredient** from an **id**
-------------------------------------
+Get an ingredient from an id
+----------------------------
+
+Obtain detailed information about a particular ingredient by its ID. This includes its type, alcohol
+content, potential allergens, and a description in different languages. This endpoint is particularly
+useful for learning more about specific ingredients, their uses, and their characteristics.
 
 **GET** ``/api/ingredients/{id}``
 
@@ -221,6 +244,11 @@ Get an **ingredient** from an **id**
 
 Lists
 =====
+
+This endpoint provides various categorized lists like cocktail categories, types of alcoholic beverages,
+difficulty levels of recipes, available languages for descriptions, types of glasses used, temperature
+at which drinks are served, and common allergens. It's a handy resource for filtering and categorizing
+data based on specific attributes.
 
 **GET** ``/api/list/{list}``
 
