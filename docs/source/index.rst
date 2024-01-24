@@ -1,22 +1,17 @@
-Welcome to Lumache's documentation!
-===================================
+============================================
+Welcome to the Mix Master API documentation!
+============================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+.. warning::
+   THIS DOCUMENTATION IS UNDER CONSTRUCTION AND WILL CHANGE!
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+**Mix Master API** is an api made for the app **Mix Master** and is also able to be used with an api key that you can get `here
+<https://github.com/RobertArnosson/mixmasterapidoc>`_
 
 Contents
 --------
 
 .. toctree::
 
-   usage
    api
+   endpoints
