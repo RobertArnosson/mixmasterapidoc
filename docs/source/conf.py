@@ -13,18 +13,13 @@ version = '0.1.0'
 
 extensions = [
     "sphinx.ext.autodoc",
-    "numpydoc",
     "sphinx.ext.doctest",
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     "sphinx.ext.todo",
     "sphinx.ext.mathjax",
     "sphinx.ext.viewcode",
-    "nbsphinx",
-    "sphinx_markdown_tables",
     "sphinx_copybutton",
-    "sphinx_search.extension",
-    "myst_parser",
 ]
 
 extensions.append("sphinx_material")
